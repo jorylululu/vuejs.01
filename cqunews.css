@@ -1,0 +1,46 @@
+            cheshi{
+                color: beige;
+                text-align: center;
+                font-display;
+                font-size: 2.5em;
+                font-weight: bold;
+                display: block;
+                margin: 0.5em;
+            }
+            beijing{
+                background-color: rgba(75, 7, 7, 0.836);
+                border-radius: 1em;
+                display: inline-block;
+                padding: 3em;
+                margin-top: 5em;
+
+            }
+            input{
+                background-color: rgba(0,0,0,0);
+                border-style: none;
+                border-bottom-style: solid;
+                border-color: rgb(245, 240, 240);
+                border-width: thin;
+                height: 2em;
+                width: 15em;
+                margin: 0.5em 0;
+                outline: none;    
+                text-align: center;      
+            }
+            input:hover{
+                background-color:black;
+            }
+            input:focus{
+                background-color: black;
+                border-color: black;
+            }
+            button{
+                background-color:beige;
+                border-style: solid;
+                border-color: beige;
+                border-radius: 10em;
+                width: 6em;
+                color: black;
+                margin: 1em 0.5em;
+                outline: none;       
+            }
