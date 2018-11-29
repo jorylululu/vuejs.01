@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <title>扶我起来我还可以做</title>
+        <style>
+            cheshi{
+                color: beige;
+                text-align: center;
+                font-display;
+                font-size: 2.5em;
+                font-weight: bold;
+                display: block;
+                margin: 0.5em;
+            }
+            beijing{
+                background-color: rgba(75, 7, 7, 0.836);
+                border-radius: 1em;
+                display: inline-block;
+                padding: 3em;
+                margin-top: 5em;
+
+            }
+            input{
+                background-color: rgba(0,0,0,0);
+                border-style: none;
+                border-bottom-style: solid;
+                border-color: rgb(245, 240, 240);
+                border-width: thin;
+                height: 2em;
+                width: 15em;
+                margin: 0.5em 0;
+                outline: none;    
+                text-align: center;      
+            }
+            input:hover{
+                background-color:black;
+            }
+            input:focus{
+                background-color: black;
+                border-color: black;
+            }
+            button{
+                background-color:beige;
+                border-style: solid;
+                border-color: beige;
+                border-radius: 10em;
+                width: 6em;
+                color: black;
+                margin: 1em 0.5em;
+                outline: none;       
+            }
+        
+        </style>
+    </head>
+    <body style="background-color: black">
+       <center>
+            <beijing>
+                <cheshi>😀死亡登陆器😀</cheshi>
+                <input type="text" placeholder="用户名"><br>
+                <input type="text" placeholder="密码"><br>
+                <button>注册</button><button>登陆</button>
+            </beijing>
+       </center>
+       <div id="app">
+       </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
